@@ -1,0 +1,23 @@
+dataset_file: './data/Road_Traffic_Fine_Management_Process_cases_binned.csv'
+name: 'road'
+selected variables: 
+  - amount 
+  - vehicleClass
+  - Penalty
+  - Judge
+  - Prefecture 
+  - DelaySend
+  - DelayJudge
+  - DelayPref
+controllable variables:
+  - DelaySend
+  - amount
+nominal variables:  
+  - vehicleClass
+  - Penalty
+  - Judge
+  - Prefecture 
+  - DelaySend
+  - DelayJudge
+  - DelayPref
+target: Paid

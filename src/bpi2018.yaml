@@ -1,0 +1,45 @@
+dataset_file: './data/bpi18-cases-cleaned-nopenalties-paymentoutcome-binned.csv'
+name: 'bpi18'
+selected variables: 
+  - young farmer
+  - selected_random
+  - selected_random                  
+  - penalty_amount0  
+  - risk_factor 
+  - small farmer  
+  - department    
+  - cross_compliance 
+  - selected_manually 
+  - payment_actual0 
+  - amount_applied0  
+  - redistribution 
+  - number_parcels 
+  - penalty_amount1  
+  - payment_actual1  
+  - amount_applied1 
+  - penalty_amount2  
+  - payment_actual2  
+  - amount_applied2 
+  - penalty_amount3  
+  - payment_actual3  
+  - amount_applied3 
+  - penalty_tot
+  - area  
+  - number_parcels 
+  - area
+controllable variables: 
+  - department
+  - selected_manually
+  - small farmer
+  - redistribution
+  - young farmer
+nominal variables: 
+  - young farmer 
+  - selected_random,
+  - risk_factor
+  - small farmer
+  - department
+  - cross_compliance
+  - selected_manually
+  - redistribution
+target: payment_ontime

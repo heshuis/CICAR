@@ -1,0 +1,19 @@
+dataset_file: './data/processed_data.csv'
+name: 'loan'
+selected variables: 
+  - ApplicationType 
+  - binned_CreditScore 
+  - LoanGoal 
+  - binned_RequestedAmount
+  - binned_FirstWithdrawalAmount 
+  - binned_MonthlyCost 
+  - binned_NoOfTerms
+  - MatchedRequest
+controllable variables:
+  - binned_FirstWithdrawalAmount
+  - binned_MonthlyCost
+  - binned_NoOfTerms
+  - binned_NumberOfOffers
+nominal variables: 
+  - LoanGoal
+target: Selected
