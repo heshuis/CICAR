@@ -396,7 +396,7 @@ def CRCS(data, variables, RHS, min_l_supp, max_k):
 
 def mine_causal_rules():
     RHS='Z' # for mining positive causal rules
-    max_k = 3
+    max_k = 5
     pRc=CRCS(data,new_selected_variables,RHS,min_l_supp,max_k) 
     RHS='notZ' # for mining negative causal rules
     nRc=CRCS(data,new_selected_variables,RHS,min_l_supp,max_k)
