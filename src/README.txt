@@ -1,3 +1,5 @@
+Requirement: pandas 1.5 or lower
+
 Usage: 
 
 For causal rule mining:
